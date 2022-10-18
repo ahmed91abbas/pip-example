@@ -1,10 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(name="pip-example",
       version="1.0.0",
       license='MIT',
       url='https://github.com/ahmed91abbas/pip-example',
-      requires=['requests'],
-      provides=['requests'],
+      install_requires=['requests'],
       packages=['printer']
 )
