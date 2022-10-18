@@ -5,5 +5,6 @@ setup(name="pip-example",
       license='MIT',
       url='https://github.com/ahmed91abbas/pip-example',
       install_requires=['requests'],
-      packages=['printer']
+      packages=['domain'],
+      package_dir={'domain': 'src/domain'},
 )
